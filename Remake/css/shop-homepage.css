@@ -77,13 +77,33 @@ footer {
     font-size: 20px;
     font-family: Futura;
     color: white;
+    padding: 10px;
     background-color: gainsboro;
-    margin: 20px;
+    margin-top: 20px;
     text-align: right;
+    border-bottom-style: groove;
     
 }
 
 .donatenow{
-    font-family: Future;
-    color
+    font-family: Futura;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: crimson;
+    padding: 15px;
+    border-bottom-style:groove;
+    
+}
+
+.marginbot{
+    margin-bottom: 20px;
+}
+
+.pictext{
+    text-align: center;
+    font-family: Futura;
+    color: white;
+    font-size: 40px;
 }
