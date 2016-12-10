@@ -19,6 +19,18 @@ router.get('/donate', function(req, res){
 router.post("/donate", function (req, res) {
 
 	//function saving to a file
-    //console.log(req.body.name);
-    console.log(req.post);
+
+
+    // var db = new sqlite3.Database(mainDatabase);
+    // var posts = [];
+
+    // db.serialize(function() {
+    //     db.each("SELECT * FROM blog_posts", function(err, row) {
+    //         posts.push({title: row.post_title, date: row.post_date, text: row.post_text})
+    //     })
+    // })
+
+    // res.redirect("/", {title: "Dynamic", posts: posts});
+
+     res.redirect(req.get('origin')+req.url);
 });
