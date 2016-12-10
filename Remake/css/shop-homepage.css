@@ -59,3 +59,16 @@ footer {
 .bhflogo{
     margin: 20px;
 }
+
+.website-name{
+    margin: 20px;
+    text-align: center;
+    font-size: 80px;
+    font-family: Futura, Charcoal, sans-serif;
+    color: white;
+}
+
+.website-name-padding{
+    padding: 25px;
+    background-color: crimson;
+}
