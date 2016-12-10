@@ -2,9 +2,11 @@
 
 var express = require('express');
 var path = require('path');
-
+var sqlite3 = require('sqlite3');
+var qs = require('querystring');
 var router = express.Router();
 
+var mainDatabase = '/Users/annabanasik/Downloads/dbsqlite';
 
 module.exports = router;
 
@@ -21,16 +23,14 @@ router.post("/donate", function (req, res) {
 	//function saving to a file
 
 
-    // var db = new sqlite3.Database(mainDatabase);
-    // var posts = [];
+    var db = new sqlite3.Database(mainDatabase);
+    var posts = [];
 
-    // db.serialize(function() {
-    //     db.each("SELECT * FROM blog_posts", function(err, row) {
-    //         posts.push({title: row.post_title, date: row.post_date, text: row.post_text})
-    //     })
-    // })
+    db.serialize(function() {
+        db.prepare("INSERT INTO Donation (name) values(?)").run(qs.parse(req.body).name).finalize();
+    })
 
-    // res.redirect("/", {title: "Dynamic", posts: posts});
+    //res.redirect("/", {title: "Dynamic", posts: posts});
 
      res.redirect(req.get('origin')+req.url);
 });
