@@ -96,3 +96,14 @@ footer {
     border-bottom-style:groove;
     
 }
+
+.marginbot{
+    margin-bottom: 20px;
+}
+
+.pictext{
+    text-align: center;
+    font-family: Futura;
+    color: white;
+    font-size: 40px;
+}
