@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Donation Form</title>
+</head>
+<body>
+
+
+
+<form action="/donate" method = "post">
+<fieldset>
+    <legend>Category</legend>
+    Which of the following categories does your product fall under:<br>
+  <input type="radio" name="category" value="Clothes" checked> Clothes<br>
+  <input type="radio" name="category" value="Toys"> Toys<br>
+  <input type="radio" name="category" value="Books"> Books<br>
+  <input type="radio" name="category" value="Other"> Other<br>
+  </fieldset>
+
+   <fieldset>
+        <legend>Personal Details</legend>
+        Enter your name:<br><input type="text" name="name"><br>
+        Enter your email id:<br><input type="text" name="emailid"><br>
+    </fieldset>
+    
+<fieldset>
+<legend>Address</legend>
+Enter your address:<br>
+House Number and Street Name:<br><input type="text" name="firstline"><br>
+Town:<br><input type="text" name="town"><br>
+County:<br><input type="text" name="county"><br>
+Zip Code:<br><input type="text" name="zipcode"><br>
+</fieldset>
+        
+        
+<input type="submit" value="Submit">
+
+</form>
+
+
+
+
+</body>
+</html>
