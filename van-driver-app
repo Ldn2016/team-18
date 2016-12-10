@@ -26,8 +26,8 @@ html,
           mapTypeControl: false
         });
 function initMap() {
-  var pointA = new google.maps.LatLng(51.495951, -0.080056), //BHF Central London
-    pointB = new google.maps.LatLng(51.503238, -0.020258), // JP Morgan Office - get pick-up location from database
+  var pointA = new google.maps.LatLng(51.495951, -0.080056), //centres at BHF outlet - in this case BHF Central London
+    pointB = new google.maps.LatLng(51.503238, -0.020258), // draws pick-up location from database 
     myOptions = {
       zoom: 7,
       center: pointA
