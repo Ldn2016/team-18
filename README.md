@@ -2,6 +2,12 @@
 
 Code for Good British Heart Foundation Challenge solution
 
+
+
+
+
+
+
 ## THE ISSUES WE AIM TO SOLVE
 
 * Limited digital presence of BHF 
@@ -9,18 +15,38 @@ Code for Good British Heart Foundation Challenge solution
 * Lack of customer loyalty
 * Stock pick-up 100% manual
 
+
+
+
+
 ## Screenshoots
 
 
+
+
+Landing page               |  Niche products subcategories
+:-------------------------:|:-------------------------:
+![Landing Page](/pic1.png) |  ![Donation Subpage](/pic2.png)
+
+Donation Webform           |  Linked with Google Maps API
+:-------------------------:|:-------------------------:
+![Donate](/pic3.png)       |  ![Map](/pic4.png)
+
+
+
+
+
+
 ## To run
+ 
+ ```  bash
+ npm install
+ node server.js
+ ```
+
 
 
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+team-18
