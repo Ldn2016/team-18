@@ -1,4 +1,4 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Shop Homepage](http://startbootstrap.com/template-overviews/shop-homepage/)
+# [BHFKids] - [presentation](https://docs.google.com/presentation/d/13FgOaIczGF5XSKa-HZpI-TdZDLH69IURGFfPYJLnPeg/edit#slide=id.g35f391192_00)
 
 [Shop Homepage](http://startbootstrap.com/template-overviews/shop-homepage/) is a basic HTML online store homepage template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
